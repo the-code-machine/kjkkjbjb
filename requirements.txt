@@ -3,3 +3,5 @@ firebase-admin
 requests
 dnspython
 Flask-CORS
+Werkzeug
+gunicorn
