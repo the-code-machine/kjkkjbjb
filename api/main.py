@@ -10,7 +10,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Initialize Firestore DB
-cred = credentials.Certificate("Backend/cognito-sati-firebase-adminsdk-tkghu-2491dadf30.json")  # Provide path to your service account key JSON file
+cred = credentials.Certificate("api/cognito-sati-firebase-adminsdk-tkghu-2491dadf30.json")  # Provide path to your service account key JSON file
 firebase_admin.initialize_app(cred)
 db = firestore.client()
 
